@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CurierLib.Models.Courier>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Курьеры</h1>
+
+<p>
+    <a asp-action="Create">Добавить</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>           
+            <td>
+                <a href="/Courier/Edit?Id=@item.Id">Изменить</a>
+                <a href="/Courier/Delete?Id=@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,64 @@
+﻿
+@model CurierLib.ViewModels.OrderToProductViewModel
+@using CurierLib.ViewModels
+@{
+   
+    ViewData["Title"] = "Create";
+
+    var products = (List<SelectDataListItem>)(object)ViewData["Products"];
+    var couriers = (List<SelectDataListItem>)(object)ViewData["Courier"];
+    var customers = (List<SelectDataListItem>)(object)ViewData["Customer"];
+}
+
+<h4>Создать заказ</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProductIdsStrArray" class="control-label"></label>
+                <select class="custom-select" asp-for="ProductIdsStrArray" multiple>
+                    @foreach (var product in products)
+                    {
+                        <option value="@product.Id">@product.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="ProductIdsStrArray" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TimeOrder" class="control-label"></label>
+                <input asp-for="TimeOrder" class="form-control" />
+                <span asp-validation-for="TimeOrder" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdEmployer" class="control-label"></label>
+                <select class="custom-select" asp-for="IdEmployer">
+                    @foreach (var courier in couriers)
+                    {
+                        <option value="@courier.Id">@courier.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="IdEmployer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPokypatel" class="control-label"></label>
+                <select class="custom-select" asp-for="IdPokypatel">
+                    @foreach (var customer in customers)
+                    {
+                        <option value="@customer.Id">@customer.Text</option>
+                    }
+                </select>
+                <span asp-validation-for="IdPokypatel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад</a>
+</div>
+

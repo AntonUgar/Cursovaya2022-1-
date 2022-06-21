@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CurierLib.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Товары</h1>
+
+<p>
+    <a asp-action="Create">Добавить</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameTovar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PriceOne)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameTovar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceOne)
+            </td>       
+            <td>
+                <a href="/Product/Edit?Id=@item.Id">Изменить</a>
+                <a href="/Product/Delete?Id=@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

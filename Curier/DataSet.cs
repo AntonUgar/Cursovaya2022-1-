@@ -1,0 +1,7 @@
+﻿namespace Curier
+{
+}
+
+namespace Curier
+{
+}

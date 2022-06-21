@@ -1,0 +1,24 @@
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\bin\Debug\net5.0\CurierLib.deps.json
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\bin\Debug\net5.0\CurierLib.dll
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\bin\Debug\net5.0\ref\CurierLib.dll
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\bin\Debug\net5.0\CurierLib.pdb
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.AssemblyInfo.cs
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.dll
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\ref\CurierLib.dll
+C:\Users\User\Desktop\курсач\Новая папка\CurierLib\obj\Debug\net5.0\CurierLib.pdb
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\bin\Debug\net5.0\CurierLib.deps.json
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\bin\Debug\net5.0\CurierLib.dll
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\bin\Debug\net5.0\CurierLib.pdb
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.csproj.AssemblyReference.cache
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.AssemblyInfoInputs.cache
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.AssemblyInfo.cs
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.csproj.CoreCompileInputs.cache
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.dll
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\refint\CurierLib.dll
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\CurierLib.pdb
+C:\Users\Аня\Desktop\антон\курсач3\Cursovaya2022-main\CurierLib\obj\Debug\net5.0\ref\CurierLib.dll
